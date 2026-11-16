@@ -1,0 +1,10 @@
+[package]
+name = "SigmaOS-network-interface"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "SigmaOS network-interface component"
+
+[lib]
+name = "network_interface"
+path = "src/lib.rs"

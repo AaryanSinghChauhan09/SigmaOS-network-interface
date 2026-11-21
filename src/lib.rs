@@ -4,6 +4,9 @@
 //! Real implementation: interfaces, events, validation, deterministic storage.
 //! Replaces the placeholder stub.
 
+/// Network interface manager module.
+pub mod sigmanic;
+
 use std::collections::BTreeMap;
 use std::fmt;
 
